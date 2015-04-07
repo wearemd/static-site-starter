@@ -1,5 +1,4 @@
 var gulp        = require('gulp');
-var gutil       = require('gulp-util');
 var browserSync = require('browser-sync');
 var jade        = require('gulp-jade');
 var sass        = require('gulp-ruby-sass');
@@ -15,11 +14,11 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function () {
-    return sass('./sass/') 
+    return sass('./sass/', {style: 'extended'})
     .on('error', function (err) {
       console.error('Error!', err.message);
    })
-    .pipe(gulp.dest('./site'));
+    .pipe(gulp.dest('./site/css'));
 });
 
 gulp.task('jade', function() {

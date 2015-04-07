@@ -13,7 +13,6 @@
     "gulp": "^3.8.11",
     "gulp-jade": "^1.0.0",
     "gulp-ruby-sass": "^1.0.1",
-    "gulp-util": "^3.0.4",
     "main-bower-files": "^2.6.2"
   }
 }
