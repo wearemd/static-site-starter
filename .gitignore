@@ -3,6 +3,7 @@ node_modules
 .DS_Store
 !site/
 site/*
+!site/fonts
 !site/images
 !site/js
 .sass-cache
