@@ -11,7 +11,7 @@
   "dependencies": {
     "browser-sync": "^2.5.3",
     "gulp": "^3.8.11",
-    "gulp-jade": "^1.0.0",
+    "gulp-jade": "1.1.0",
     "gulp-ruby-sass": "^1.0.1",
     "main-bower-files": "^2.6.2"
   }

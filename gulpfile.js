@@ -14,22 +14,22 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function () {
-    return sass('./sass/', {style: 'extended'})
+    return sass('./sass/style.sass', {style: 'compressed'})
     .on('error', function (err) {
       console.error('Error!', err.message);
-   })
+    })
     .pipe(gulp.dest('./site/css'));
 });
 
 gulp.task('jade', function() {
   return gulp.src('./templates/*.jade')
-    .pipe(jade({
-      pretty: true
-    }))
+    .pipe(jade({}))
     .pipe(gulp.dest('./site'));
 });
 
 gulp.task('default', ['browser-sync', 'sass', 'jade'], function () {
-  gulp.watch(["templates/*.jade"], ['jade', browserSync.reload]);
+  gulp.watch(["templates/**/*.jade"], ['jade', browserSync.reload]);
   gulp.watch("sass/**/*.sass", ['sass', browserSync.reload]);
+  gulp.watch("sass/**/*.scss", ['sass', browserSync.reload]);
+  gulp.watch("site/js/*.js", browserSync.reload);
 });
