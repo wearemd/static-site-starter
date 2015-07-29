@@ -1,11 +1,11 @@
 # Static Gulp Website
 
-## Getting Started
+## Getting started
 * Get ready with `npm install` command
 * Run with `gulp` command
 	* To compile Sass only use `gulp sass` command
 
-## Issue with Sass
+### Sass issues
 * Possible bug with Sass version solved using `gem update sass`
 
 ## Folders
