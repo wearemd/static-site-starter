@@ -1,9 +1,12 @@
-# Static gulp website
+# Static Gulp Website
 
-* HTML templates are written in Jade
-  * located in `templates/`
-* CSS templates are written in SASS
-  * located in `sass/`
+## Getting Started
+* Get ready with `npm install` command
 * Run it with `gulp` command
-* Possible bug with sass version solved by:
-  * `gem update sass`
+* Possible bug with Sass version solved by `gem update sass`
+
+## Folders
+* Templates are written in Jade
+  * Located in `templates/`
+* Stylesheets are written in Sass
+  * Located in `sass/`
