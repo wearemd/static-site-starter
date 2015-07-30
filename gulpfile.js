@@ -2,7 +2,6 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var jade        = require('gulp-jade');
 var sass        = require('gulp-ruby-sass');
-var bowerFiles  = require('main-bower-files');
 
 gulp.task('browser-sync', function() {
   browserSync({
