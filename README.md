@@ -14,3 +14,4 @@
   * A converter HTML to Jade is available on: [http://html2jade.aaron-powell.com](http://html2jade.aaron-powell.com/)
 * Stylesheets are written in Sass
   * Located in `sass/`
+* All Fonts, Images and Scripts are located in `site/`
