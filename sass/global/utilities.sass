@@ -13,6 +13,9 @@ $color_primary_base: blue
 @mixin hidden
   display: none
 
+@mixin visible
+  display: inherit
+
 @mixin margin_auto
   margin: 0 auto
 
@@ -55,9 +58,15 @@ $color_primary_base: blue
   @else if $point == xl
     @media (min-width: 1450px)
       @content
+  @else if $point == xs_landscape
+    @media (max-width: 767px) and (orientation:landscape)
+      @content
   @else if $point == sm_md
     @media (min-width: 768px) and (max-width: 1199px)
       @content
   @else if $point == sm_md_lg
     @media (min-width: 768px)
+      @content
+  @else if $point == md_lg
+    @media (min-width: 992px)
       @content
