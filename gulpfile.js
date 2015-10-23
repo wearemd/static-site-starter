@@ -2,6 +2,7 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var jade        = require('gulp-jade');
 var sass        = require('gulp-ruby-sass');
+var plumber     = require('gulp-plumber');
 
 gulp.task('browser-sync', function() {
   browserSync({
@@ -12,18 +13,19 @@ gulp.task('browser-sync', function() {
   });
 });
 
-gulp.task('sass', function () {
-    return sass('./sass/style.sass', {style: 'compressed'})
-    .on('error', function (err) {
-      console.error('Error!', err.message);
-    })
-    .pipe(gulp.dest('./site/css'));
+gulp.task('sass', function (done) {
+  sass('./sass/style.sass', {style: 'compressed'})
+    .pipe(plumber())
+    .pipe(gulp.dest('./site/css'))
+    .on('end', done);
 });
 
-gulp.task('jade', function() {
-  return gulp.src('./templates/*.jade')
+gulp.task('jade', function (done) {
+  gulp.src('./templates/*.jade')
+    .pipe(plumber())
     .pipe(jade({}))
-    .pipe(gulp.dest('./site'));
+    .pipe(gulp.dest('./site'))
+    .on('end', done);
 });
 
 gulp.task('default', ['browser-sync', 'sass', 'jade'], function () {
