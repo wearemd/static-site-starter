@@ -9,10 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.5.3",
     "gulp": "^3.8.11",
     "gulp-jade": "1.1.0",
     "gulp-plumber": "^1.0.1",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.5.3"
   }
 }
