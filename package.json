@@ -13,6 +13,6 @@
     "gulp": "^3.8.11",
     "gulp-jade": "1.1.0",
     "gulp-plumber": "^1.0.1",
-    "gulp-ruby-sass": "2.0.5"
+    "gulp-sass": "^2.3.2"
   }
 }

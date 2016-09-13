@@ -1,7 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var jade        = require('gulp-jade');
-var sass        = require('gulp-ruby-sass');
+var sass        = require('gulp-sass');
 var plumber     = require('gulp-plumber');
 
 gulp.task('browser-sync', function() {
@@ -14,7 +14,8 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function (done) {
-  sass('./sass/style.sass', {style: 'compressed'})
+  gulp.src('./sass/style.sass')
+    .pipe(sass({outputStyle: 'compressed'}))
     .pipe(plumber())
     .pipe(gulp.dest('./site/css'))
     .on('end', done);
