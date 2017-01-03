@@ -1,11 +1,11 @@
 var gulp    = require('gulp');
-var jade    = require('gulp-jade');
+var pug     = require('gulp-pug');
 var plumber = require('gulp-plumber');
 
 gulp.task('jade', function (done) {
   gulp.src('./templates/*.jade')
     .pipe(plumber())
-    .pipe(jade({}))
+    .pipe(pug())
     .pipe(gulp.dest('./site'))
     .on('end', done);
 });
