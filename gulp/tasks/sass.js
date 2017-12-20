@@ -1,6 +1,7 @@
-var gulp    = require('gulp');
-var sass    = require('gulp-sass');
-var plumber = require('gulp-plumber');
+var gulp        = require('gulp');
+var sass        = require('gulp-sass');
+var plumber     = require('gulp-plumber');
+var browserSync = require('browser-sync');
 
 // See https://github.com/sass/node-sass for sass configuration
 var sassConfig = {
@@ -18,3 +19,9 @@ gulp.task('sass', function (done) {
     .pipe(gulp.dest('./site/css'))
     .on('end', done);
 });
+
+gulp.task('sass-reload', ['sass'], function(done){
+  browserSync.reload()
+
+  done()
+})
