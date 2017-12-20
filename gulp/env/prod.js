@@ -1,3 +1,3 @@
 var gulp = require('gulp');
 
-gulp.task('default', ['jade', 'sass', 'script']);
+gulp.task('default', ['pug', 'sass', 'script']);

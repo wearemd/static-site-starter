@@ -1,7 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 
-gulp.task('browser-sync', ['sass', 'jade'], function() {
+gulp.task('browser-sync', ['sass', 'pug'], function() {
   // Script is an async task in dev mode so it must be called that way.
   // Otherwise the current function will never be called.
   gulp.start('script')
@@ -13,7 +13,7 @@ gulp.task('browser-sync', ['sass', 'jade'], function() {
     open: false
   });
 
-  gulp.watch(["templates/**/*.jade"], ['jade', browserSync.reload]);
+  gulp.watch(["templates/**/*.pug"], ['pug', browserSync.reload]);
   gulp.watch(["sass/**/*.sass", "sass/**/*.scss"], ['sass', browserSync.reload]);
   gulp.watch(["site/js/*.js"], browserSync.reload)
 });

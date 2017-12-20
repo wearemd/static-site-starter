@@ -1,4 +1,4 @@
-.PHONY: serve s jade sass build help
+.PHONY: serve s pug sass build help
 .DEFAULT_GOAL := help
 
 serve: ## Serve ./site with livereload on localhost:3000. Alias: s
@@ -6,8 +6,8 @@ serve: ## Serve ./site with livereload on localhost:3000. Alias: s
 
 s: serve
 
-jade: ## Build Jade to ./site
-	@gulp jade
+pug: ## Build Pug to ./site
+	@gulp pug
 
 sass: ## Build Sass to ./site/css
 	@gulp sass
