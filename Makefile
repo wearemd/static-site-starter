@@ -15,7 +15,7 @@ sass: ## Build Sass to ./site/css
 script: ## Build JS to ./site/js
 	@gulp script
 
-build: ## Build Jade/Sass to ./site
+build: ## Build everything to ./site
 	@NODE_ENV=production gulp 
 
 help: ## Print this help
