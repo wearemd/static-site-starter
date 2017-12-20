@@ -1,9 +1,19 @@
 # Static Gulp Website
 
 ## Getting started
-* Get ready with `yarn install` command
-* Run with `gulp` command
-  * To compile Sass only, use `gulp sass` command
+
+### Prerequisites
+
+* Node.js >= v8.0.0
+* Yarn ~> 1.0.0
+
+### Setup
+
+`yarn install`
+
+## Gulp tasks
+
+You can't natively document your Gulp tasks so they are wrapped with [Make](https://www.gnu.org/software/make/) to achieve that. Type `make` to get a documented list of Gulp Tasks.
 
 ## Folders
 * Templates are written with [Pug](https://pugjs.org/api/getting-started.html)
