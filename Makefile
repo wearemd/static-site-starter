@@ -1,21 +1,21 @@
 .PHONY: serve s jade sass build help
 .DEFAULT_GOAL := help
 
-serve: ## Serve .site/ with livereload on localhost:3000. Alias: s
+serve: ## Serve ./site/ with livereload on localhost:3000. Alias: s
 	@gulp
 
 s: serve
 
-jade: ## Build Jade to .site/
+jade: ## Build Jade to ./site/
 	@gulp jade
 
-sass: ## Build SASS to .site/css
+sass: ## Build Sass to ./site/css
 	@gulp sass
 
 script: ## Build JS to ./site/js
 	@gulp script
 
-build: ## Build Jade/SASS to .site/
+build: ## Build Jade/Sass to ./site/
 	@NODE_ENV=production gulp 
 
 help: ## Print this help

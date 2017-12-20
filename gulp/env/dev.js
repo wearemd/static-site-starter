@@ -2,8 +2,8 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 
 gulp.task('browser-sync', ['sass', 'jade'], function() {
-  // Script is an async task in dev mode so it must call that way.
-  // Otherwise this task will never be called.
+  // Script is an async task in dev mode so it must be called that way.
+  // Otherwise the current function will never be called.
   gulp.start('script')
 
   browserSync({
