@@ -8,15 +8,14 @@
   },
   "author": "awea <aweaoftheworld@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "gulp": "^3.8.11",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.5.3",
+    "gulp": "^3.9.1",
     "gulp-plumber": "^1.0.1",
     "gulp-pug": "^3.2.0",
-    "gulp-sass": "^3.0.0",
-    "yargs": "^6.6.0"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.5.3"
+    "gulp-sass": "^3.1.0",
+    "yargs": "^10.0.3"
   },
   "repository": {
     "url": "git@github.com:wearemd/static_gulp.git",
