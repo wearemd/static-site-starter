@@ -22,3 +22,10 @@ You can't natively document your Gulp tasks so they are wrapped with [Make](http
 * Stylesheets are written in Sass
   * Located in `sass/`
 * All Fonts, Images and Scripts are located in `site/`
+
+## Sass
+To `@import` something from an installed package:
+
+* Look at the path in the desired package 
+  * example: [bulma/sass/utilities/_all](https://github.com/jgthms/bulma/blob/master/sass/utilities/_all.sass)
+* Write your import `@import bulma/sass/utilities/_all`
