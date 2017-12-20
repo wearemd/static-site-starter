@@ -5,6 +5,7 @@ var plumber = require('gulp-plumber');
 // See https://github.com/sass/node-sass for sass configuration
 var sassConfig = {
   outputStyle: 'compressed',
+  sourceMapEmbed: process.env.NODE_ENV != 'production',
   includePaths: [
     'node_modules'
   ]
