@@ -15,7 +15,7 @@
     "gulp-plumber": "^1.0.1",
     "gulp-pug": "^3.2.0",
     "gulp-sass": "^3.1.0",
-    "yargs": "^10.0.3"
+    "webpack-stream": "^4.0.0"
   },
   "repository": {
     "url": "git@github.com:wearemd/static_gulp.git",
