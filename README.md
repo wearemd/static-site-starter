@@ -6,6 +6,7 @@
 
 * Node.js >= v8.0.0
 * Yarn ~> 1.0.0
+* Gulp ~> 3.9.1
 
 ### Setup
 
