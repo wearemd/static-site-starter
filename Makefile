@@ -1,10 +1,8 @@
 .PHONY: serve s pug sass build help
-.DEFAULT_GOAL := help
+.DEFAULT_GOAL := serve
 
-serve: ## Serve ./site with livereload on localhost:3000. Alias: s
+serve: ## Serve ./site with livereload on localhost:3000
 	@gulp
-
-s: serve
 
 pug: ## Build Pug to ./site
 	@gulp pug
