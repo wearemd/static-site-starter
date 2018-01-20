@@ -1,18 +1,20 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', function(done) {
   browserSync({
     server: {
       baseDir: "./site"
     },
     open: false
   });
+
+  done()
 });
 
 gulp.task('watch', function() {
-  gulp.watch(["templates/**/*.pug"], ['pug-reload']);
-  gulp.watch(["sass/**/*.sass", "sass/**/*.scss"], ['sass-reload']);
+  gulp.watch(["templates/**/*.pug"], gulp.parallel(['pug-reload']));
+  gulp.watch(["sass/**/*.sass", "sass/**/*.scss"], gulp.parallel(['sass-reload']));
 
   // If changes happen in site then reload the browser.
   gulp.watch(["site/fonts/**/*", "site/images/**/*"], browserSync.reload)
@@ -22,4 +24,4 @@ gulp.task('watch', function() {
   gulp.watch(["site/js/app.js"], browserSync.reload)
 })
 
-gulp.task('default', ['browser-sync', 'watch', 'sass', 'pug', 'script']);
+gulp.task('default', gulp.parallel(['browser-sync', 'watch', 'sass', 'pug', 'script']));

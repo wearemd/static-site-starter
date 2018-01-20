@@ -20,8 +20,8 @@ gulp.task('sass', function (done) {
     .on('end', done);
 });
 
-gulp.task('sass-reload', ['sass'], function(done){
+gulp.task('sass-reload', gulp.series(['sass'], function(done){
   browserSync.reload()
 
   done()
-})
+}))
