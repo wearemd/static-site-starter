@@ -6,14 +6,13 @@ var progeny     = require('gulp-progeny');
 var filter      = require('gulp-filter');
 
 // See https://pugjs.org/api/reference.html for Pug configuration
-gulp.task('pug', function (done) {
-  gulp.src('./templates/**/*.pug')
+gulp.task('pug', function () {
+  return gulp.src('./templates/**/*.pug')
     .pipe(cache('pug'))
     .pipe(progeny())
     .pipe(filter(['templates/*.pug']))
     .pipe(pug())
     .pipe(gulp.dest('./site'))
-    .on('end', done)
 });
 
 gulp.task('pug-reload', gulp.series('pug', function(done){
