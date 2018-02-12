@@ -13,15 +13,18 @@ var sassConfig = {
 
 // gulp-sass doesn't work well with gulp-plumber, see: https://github.com/floatdrop/gulp-plumber/issues/32
 // Simple fix by adding .on callback to sass().
-gulp.task('sass', function (done) {
-  gulp.src('./sass/style.sass')
+function styles() {
+  return gulp.src('./sass/style.sass')
     .pipe(sass(sassConfig).on('error', sass.logError))
     .pipe(gulp.dest('./site/css'))
+}
+
+gulp.task('sass', function (done) {
+  styles()
     .on('end', done);
 });
 
-gulp.task('sass-reload', gulp.series(['sass'], function(done){
-  browserSync.reload()
-
-  done()
-}))
+gulp.task('sass-stream', function(){
+  return styles()
+    .pipe(browserSync.stream())
+})

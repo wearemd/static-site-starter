@@ -14,7 +14,7 @@ gulp.task('browser-sync', function(done) {
 
 gulp.task('watch', function() {
   gulp.watch(["templates/**/*.pug"], gulp.parallel(['pug-reload']));
-  gulp.watch(["sass/**/*.sass", "sass/**/*.scss"], gulp.parallel(['sass-reload']));
+  gulp.watch(["sass/**/*.sass", "sass/**/*.scss"], gulp.parallel(['sass-stream']));
 
   // If changes happen in site then reload the browser.
   gulp.watch(["site/fonts/**/*", "site/images/**/*"]).on('change', browserSync.reload)
