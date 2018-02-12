@@ -16,7 +16,7 @@ gulp.task('pug', function (done) {
     .on('end', done)
 });
 
-gulp.task('pug-reload', gulp.series(['pug'], function(done){
+gulp.task('pug-reload', gulp.series('pug', function(done){
   browserSync.reload()
 
   done()
