@@ -19,10 +19,7 @@ function styles() {
     .pipe(gulp.dest('./site/css'))
 }
 
-gulp.task('sass', function (done) {
-  styles()
-    .on('end', done);
-});
+gulp.task('sass', styles);
 
 gulp.task('sass-stream', function(){
   return styles()
