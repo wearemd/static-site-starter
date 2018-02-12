@@ -4,23 +4,23 @@
 block vars
 
 doctype html
-html(lang="en")
+html(lang='en')
   head
-    meta(charset="utf-8")
-    meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
     title= title
-    link(href="css/style.css", rel="stylesheet")
+    link(href='css/style.css', rel='stylesheet')
   body(class=bodyClass)
     nav
       ul
         li
-          a(href="/") Index
+          a(href='/') Index
         li
-          a(href="aheuh.html") Aheuh
+          a(href='aheuh.html') Aheuh
 
     include ../partials/image.pug
 
     block content
 
-    script(src="js/app.js")
+    script(src='js/app.js')
