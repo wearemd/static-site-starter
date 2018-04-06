@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "gulp": "gulp"
-  },
   "author": "awea <aweaoftheworld@gmail.com>",
   "license": "ISC",
   "dependencies": {},
@@ -13,6 +10,7 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
     "browser-sync": "^2.5.3",
     "gulp": "^4.0.0",
     "gulp-cached": "^1.1.1",
