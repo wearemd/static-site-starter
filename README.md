@@ -1,4 +1,4 @@
-# Static Gulp Website
+# Template for static website
 
 ## Getting started
 
@@ -23,8 +23,10 @@ You can't natively document your Gulp tasks so they are wrapped with [Make](http
 * Templates are written in [Pug/Jade](https://pugjs.org/api/getting-started.html)
   * Located in `templates/`
   * A converter HTML to Pug/Jade is available on: [http://html2jade.org](http://html2jade.org)
-* Stylesheets are written in Sass
+* Stylesheets are written in [Sass](https://sass-lang.com/)
   * Located in `sass/`
+* Javascripts are compiled with [Babel](https://babeljs.io/)
+  * Located in `js/`
 * Fonts and images are located in `site/`
 
 ## Sass
