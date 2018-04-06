@@ -22,12 +22,5 @@ module.exports = {
         }
       }
     ]
-  },
-  resolve: {
-    alias: {
-      components: path.resolve(__dirname, '../../js/components'),
-      utilities: path.resolve(__dirname, '../../js/utilities'),
-      extensions: path.resolve(__dirname, '../../js/extensions')
-    }
   }
 }

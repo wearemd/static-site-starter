@@ -9,6 +9,6 @@ module.exports = merge(common, {
       uglifyOptions: {
         compress: true
       }
-    }),
+    })
   ]
 })
