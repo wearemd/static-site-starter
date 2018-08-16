@@ -1,4 +1,5 @@
-# Template for static website
+# Static site starter
+A starter template for static sites featuring Gulp, Pug, Sass and Webpack.
 
 ## Getting started
 
