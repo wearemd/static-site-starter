@@ -22,7 +22,7 @@ Bacause you can't natively document your Gulp tasks, they are wrapped with [Make
 
 ## Folders
 * `templates`: [Pug](https://pugjs.org/api/getting-started.html) templates
-  * A [HTML to Pug converter](http://html2jade.org) can be useful
+  * An [HTML to Pug converter](http://html2jade.org) can be useful
 * `sass`: CSS is compiled with [Sass](https://sass-lang.com)
 * `js`: JavaScript is compiled with [Babel](https://babeljs.io)
 * `site`: Put your fonts and images there
