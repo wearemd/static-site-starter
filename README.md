@@ -12,7 +12,7 @@ A starter template for static sites featuring Gulp, Pug, Sass and Webpack.
 `yarn install`
 
 ## Gulp tasks
-Because you can't natively document your Gulp tasks, they are wrapped with [Make](https://www.gnu.org/software/make/). Type `make help` to get a documented list of Gulp tasks.
+Because you can't natively document Gulp tasks, they are wrapped with [Make](https://www.gnu.org/software/make/). Type `make help` to get a documented list of available tasks.
 
 ### Serve
 `make`: Serve `./site` with livereload on [localhost:3000](http://localhost:3000)
