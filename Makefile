@@ -1,21 +1,27 @@
-.PHONY: serve pug sass script build help
+.PHONY: deps serve pug sass script build help
 .DEFAULT_GOAL := serve
 
 GULP := $(PWD)/node_modules/.bin/gulp
 
-serve: ## Serve ./site with livereload on localhost:3000
+deps: node_modules
+
+node_modules: package.json yarn.lock
+	@yarn install
+	touch $@
+
+serve: deps ## Serve ./site with livereload on localhost:3000
 	@$(GULP) --continue
 
-pug: ## Build HTML to ./site
+pug: deps ## Build HTML to ./site
 	@$(GULP) pug
 
-sass: ## Build CSS to ./site/css
+sass: deps ## Build CSS to ./site/css
 	@$(GULP) sass
 
-script: ## Build JavaScript to ./site/js
+script: deps ## Build JavaScript to ./site/js
 	@$(GULP) script
 
-build: ## Build HTML, CSS and JavaScript to ./site
+build: deps ## Build HTML, CSS and JavaScript to ./site
 	@NODE_ENV=production $(GULP)
 
 help: ## Print this help
