@@ -6,16 +6,16 @@ GULP := $(PWD)/node_modules/.bin/gulp
 serve: ## Serve ./site with livereload on localhost:3000
 	@$(GULP) --continue
 
-pug: ## Build Pug to ./site
+pug: ## Build HTML to ./site
 	@$(GULP) pug
 
-sass: ## Build Sass to ./site/css
+sass: ## Build CSS to ./site/css
 	@$(GULP) sass
 
-script: ## Build JS to ./site/js
+script: ## Build JavaScript to ./site/js
 	@$(GULP) script
 
-build: ## Build everything to ./site
+build: ## Build HTML, CSS and JavaScript to ./site
 	@NODE_ENV=production $(GULP)
 
 help: ## Print this help
