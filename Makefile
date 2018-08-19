@@ -1,4 +1,4 @@
-.PHONY: serve pug sass build help
+.PHONY: serve pug sass script build help
 .DEFAULT_GOAL := serve
 
 GULP := $(PWD)/node_modules/.bin/gulp
