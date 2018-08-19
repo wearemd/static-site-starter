@@ -18,7 +18,7 @@ Because you can't natively document Gulp tasks, they are wrapped with [Make](htt
 `make`: Serve `./site` with livereload on [localhost:3000](http://localhost:3000)
 
 ### Build
-`make build`: Build everything to `./site`
+`make build`: Build HTML, CSS and JavaScript to `./site`
 
 ## Folders
 * `templates`: [Pug](https://pugjs.org/api/getting-started.html) templates
