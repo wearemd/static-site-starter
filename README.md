@@ -12,27 +12,22 @@ A starter template for static sites featuring Gulp, Pug, Sass and Webpack.
 `yarn install`
 
 ## Gulp tasks
-You can't natively document your Gulp tasks so they are wrapped with [Make](https://www.gnu.org/software/make/) to achieve that. Type `make help` to get a documented list of Gulp tasks.
+Bacause you can't natively document your Gulp tasks, they are wrapped with [Make](https://www.gnu.org/software/make/). Type `make help` to get a documented list of Gulp tasks.
 
 ### Serve
-`make`: Serve ./site with livereload on localhost:3000
+`make`: Serve `./site` with livereload on [localhost:3000](http://localhost:3000)
 
 ### Build
-`make build`: Build everything to ./site
+`make build`: Build your static website to `./site`
 
 ## Folders
-* Templates are written in [Pug/Jade](https://pugjs.org/api/getting-started.html)
-  * Located in `templates/`
-  * A converter HTML to Pug/Jade is available on: [http://html2jade.org](http://html2jade.org)
-* Stylesheets are written in [Sass](https://sass-lang.com/)
-  * Located in `sass/`
-* Javascripts are compiled with [Babel](https://babeljs.io/)
-  * Located in `js/`
-* Fonts and images are located in `site/`
+* `templates`: [Pug](https://pugjs.org/api/getting-started.html) templates
+  * A [HTML to Pug converter](http://html2jade.org) can be useful
+* `sass`: CSS is compiled with [Sass](https://sass-lang.com)
+* `js`: JavaScript is compiled with [Babel](https://babeljs.io)
+* `site`: Put your fonts and images there
 
 ## Sass
 To `@import` something from an installed package:
-
-* Look at the path in the desired package 
-  * Example: [bulma/sass/utilities/_all](https://github.com/jgthms/bulma/blob/master/sass/utilities/_all.sass)
-* Write your import `@import bulma/sass/utilities/_all`
+1. Look at the path in the desired package, for example: [`bulma/sass/utilities/_all`](https://github.com/jgthms/bulma/blob/master/sass/utilities/_all.sass)
+2. Write your import: `@import bulma/sass/utilities/_all`
