@@ -3,10 +3,10 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: [
-    './js/app.js'
+    './js/scripts.js'
   ],
   output: {
-    filename: 'app.js',
+    filename: 'scripts.js',
     path: path.resolve(__dirname, '../../site/js') 
   },
   module: {
