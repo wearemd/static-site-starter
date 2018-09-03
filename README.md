@@ -5,8 +5,7 @@ A starter template for static sites featuring Gulp, Pug, Sass and Webpack.
 
 ### Prerequisites
 * Node.js ~> 8.0.0
-* Yarn ~> 1.0.0
-* Gulp ~> 3.9.1
+* Yarn ~> 1.6.0
 
 ### Setup
 `yarn install`
