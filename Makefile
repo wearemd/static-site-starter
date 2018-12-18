@@ -1,5 +1,6 @@
 GULP := $(PWD)/node_modules/.bin/gulp
 
+.PHONY: deps
 deps: node_modules
 
 node_modules: package.json yarn.lock
