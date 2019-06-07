@@ -1,6 +1,8 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
+var sassVariables = require("gulp-sass-variables");
 var browserSync = require("browser-sync");
+var { assetVersion } = require("../helpers/url");
 
 // See https://github.com/sass/node-sass for sass configuration
 var sassConfig = {
@@ -14,6 +16,11 @@ var sassConfig = {
 function styles() {
   return gulp
     .src("./sass/style.sass")
+    .pipe(
+      sassVariables({
+        $assetVersion: assetVersion
+      })
+    )
     .pipe(sass(sassConfig).on("error", sass.logError))
     .pipe(gulp.dest("./site/css"));
 }
