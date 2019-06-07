@@ -1,13 +1,11 @@
-const path    = require('path');
-const webpack = require('webpack');
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-  entry: [
-    './js/scripts.js'
-  ],
+  entry: ["./js/scripts.js"],
   output: {
-    filename: 'scripts.js',
-    path: path.resolve(__dirname, '../../site/js') 
+    filename: "scripts.js",
+    path: path.resolve(__dirname, "../../site/js")
   },
   module: {
     rules: [
@@ -15,9 +13,9 @@ module.exports = {
         test: /\.(js)$/,
         exclude: /(node_modules)/,
         use: {
-          loader: 'babel-loader'
+          loader: "babel-loader"
         }
       }
     ]
   }
-}
+};

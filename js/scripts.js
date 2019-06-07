@@ -1,5 +1,5 @@
-import {foo} from './foo.js'
+import { foo } from "./foo.js";
 
-foo()
+foo();
 
-console.log('Hi there!')
+console.log("Hi there!");
