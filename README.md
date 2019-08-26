@@ -58,9 +58,11 @@ make help
 │   │   └── webpack.prod.js      # Production environment configuration file
 │   └── index.js                 # Script to invoke correct environment and 
 │                                # dinamically load tasks from 
+│
 ├── js                           # JavaScript source files
 │   ├── foo.js                   # Sample JavaScript file imported in scripts.js
 │   └── scripts.js               # Main JavaScript file used as entry by Webpack
+│
 ├── sass                         # Sass stylesheets folder 
 │   ├── dev                      # Development stylesheets folder
 │   │   ├── _all.sass            # Sass file to register all development styles
@@ -72,11 +74,13 @@ make help
 │   │   ├── _all.sass            # Sass file to register all utilities stylesheets
 │   │   └── functions.sass       # Sass functions
 │   └── style.sass               # Main Sass file used by as source by Gulp
+│
 ├── site                         # Site folder
 │   ├── css                      # Minified, optimized and compiled Sass
 │   ├── fonts                    # Fonts folder
 │   ├── images                   # Images folder
 │   └── js                       # Minified, optimized and compiled JavaScript
+│
 ├── templates                    # Pug templates folder
 │   ├── index.pug                # Home page
 │   ├── layouts                  # Layouts templates folder
@@ -84,6 +88,7 @@ make help
 │   ├── page.pug                 # Simple page
 │   └── partials                 # Partials templates folder
 │       └── unicorn.pug          # Unicorn partial 
+│
 ├── .tool-versions               # Tells asdf which version to use locally for each language
 ├── gulpfile.js                  # Gulp configuration
 ├── Makefile                     # Defines commands for this project
