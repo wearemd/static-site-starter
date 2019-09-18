@@ -104,4 +104,4 @@ To `@import` something from an installed package:
 Contributions, issues and feature requests are welcome!
 
 ## 📝 License
-This project is [GNU GPL v3](LICENSE) licensed.
+Static site starter is licensed under the [GNU General Public License v3.0](LICENSE).
