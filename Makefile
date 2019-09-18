@@ -5,7 +5,7 @@ deps: node_modules
 
 node_modules: package.json yarn.lock
 	@yarn install
-	touch $@
+	@touch $@
 
 .DEFAULT_GOAL := serve
 .PHONY: serve
