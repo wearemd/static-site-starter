@@ -13,7 +13,7 @@ serve: deps ## Serve site/ with livereload on localhost:3000
 	@$(GULP) --continue
 
 .PHONY: build
-build: deps ## Build HTML, CSS and JavaScript to site/
+build: deps ## Build everything with Webpack and Gulp production environment to site/
 	@NODE_ENV=production $(GULP)
 
 .PHONY: help

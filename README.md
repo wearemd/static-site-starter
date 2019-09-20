@@ -24,7 +24,7 @@ make
 💡 This command will also install dependencies on first run and when `package.json` or `yarn.lock` files are updated.
 
 ### Build
-Build HTML, CSS and JavaScript to `site/`.
+Build everything with Webpack and Gulp production environment to `site/`.
 
 ```
 make buid
