@@ -100,6 +100,22 @@ To `@import` something from an installed package:
 1. Look at the path in the desired package, for example: [`bulma/sass/utilities/_all`](https://github.com/jgthms/bulma/blob/master/sass/utilities/_all.sass)
 2. Write your import: `@import bulma/sass/utilities/_all`
 
+## 🚀 Cache busting
+Our strategy for cache busting in this starter is to append a `?v=[versionNumber]` to each asset query. `versionNumber` is set in `package.json` version, you must update the version when you want to bust the cache.
+
+In Pug templates an `assetVersion`variable is available. Usage:
+
+```pug
+img(src="images/unicorn.jpg" + assetVersion)
+```
+
+In Sass files an `urlVersion` function is available. Usage:
+
+```sass
+body
+  background: urlVersion("/images/unicorn.jpg") no-repeat
+```
+
 ## 🤜🤛 Contributing
 Contributions, issues and feature requests are welcome!
 
