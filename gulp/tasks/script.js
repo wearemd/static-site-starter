@@ -10,8 +10,8 @@ gulp.task("script", function() {
       webpack({
         watch: isDev,
         config: isDev
-          ? require("../webpack/webpack.dev.js")
-          : require("../webpack/webpack.prod.js")
+          ? require("../webpack/dev.js")
+          : require("../webpack/prod.js")
       })
     )
     .pipe(gulp.dest("./site/js/"));
