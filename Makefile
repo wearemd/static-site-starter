@@ -12,18 +12,6 @@ node_modules: package.json yarn.lock
 serve: deps ## Serve site/ with livereload on localhost:3000
 	@$(GULP) --continue
 
-.PHONY: pug
-pug: deps ## Build HTML to site/
-	@$(GULP) pug
-
-.PHONY: sass
-sass: deps ## Build CSS to site/css/
-	@$(GULP) sass
-
-.PHONY: script
-script: deps ## Build JavaScript to site/js/
-	@$(GULP) script
-
 .PHONY: build
 build: deps ## Build HTML, CSS and JavaScript to site/
 	@NODE_ENV=production $(GULP)
