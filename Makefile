@@ -17,5 +17,5 @@ build: deps ## Build HTML, CSS and JavaScript to site/
 	@NODE_ENV=production $(GULP)
 
 .PHONY: help
-help: ## Print this help
+help: ## Display a list of available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
