@@ -37,8 +37,6 @@ Display a list of available commands.
 make help
 ```
 
-💡 Because you can't natively document Gulp tasks, they are wrapped with [Make](https://www.gnu.org/software/make/).
-
 ## 🗄️ Project structure
 ```
 .
