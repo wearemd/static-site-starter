@@ -45,7 +45,7 @@ make help
 │   ├── env                  # Gulp configuration file per environment
 │   │   ├── dev.js           # Development environment configuration file
 │   │   └── prod.js          # Production environment configuration file
-│   ├── helpers              # Gulp task helpers 
+│   ├── helpers              # Gulp helpers folder
 │   │   └── url.js           # Helper for URL creation
 │   ├── tasks                # Gulp tasks folder
 │   │   ├── pug.js           # Pug task declaration
@@ -64,7 +64,7 @@ make help
 │
 ├── sass                     # Sass stylesheets folder 
 │   ├── dev                  # Development stylesheets folder
-│   │   ├── _all.sass        # Sass file to register all development styles
+│   │   ├── _all.sass        # Sass file to register all development stylesheets
 │   │   └── shame.sass       # Here we put WIP style or dirty hacks
 │   │                        # See csswizardry.com/2013/04/shame-css/
 │   ├── fonts                # Fonts stylesheets folder
@@ -72,7 +72,7 @@ make help
 │   ├── utilities            # Utilities style folder
 │   │   ├── _all.sass        # Sass file to register all utilities stylesheets
 │   │   └── functions.sass   # Sass functions
-│   └── style.sass           # Main Sass file used by as source by Gulp
+│   └── style.sass           # Main Sass file used as source by Gulp
 │
 ├── site                     # Site folder
 │   ├── css                  # Minified, optimized and compiled CSS
@@ -82,16 +82,16 @@ make help
 │
 ├── templates                # Pug templates folder
 │   ├── index.pug            # Home page
-│   ├── layouts              # Layouts templates folder
+│   ├── layouts              # Layout templates folder
 │   │   └── default.pug      # Default layout template
-│   ├── page.pug             # Simple page
-│   └── partials             # Partials templates folder
-│       └── unicorn.pug      # Unicorn partial 
+│   ├── page.pug             # Sample page
+│   └── partials             # Partial templates folder
+│       └── unicorn.pug      # Sample partial featuring an unicorn image
 │
 ├── .tool-versions           # Tells asdf which version to use locally for each language
 ├── gulpfile.js              # Gulp configuration
 ├── Makefile                 # Defines commands for this project
-└── package.json             # Defines libraries and dependencies 
+└── package.json             # Defines libraries and dependencies
 ```
 
 ## 👓 Sass
