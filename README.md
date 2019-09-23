@@ -95,9 +95,9 @@ make help
 ```
 
 ## 👓 Sass
-To `@import` something from an installed package:
-1. Look at the path in the desired package, for example: [`bulma/sass/utilities/_all`](https://github.com/jgthms/bulma/blob/master/sass/utilities/_all.sass)
-2. Write your import: `@import bulma/sass/utilities/_all`
+To `@import` some stylesheet from an installed package:
+1. Look at its path in the package, for example: [`bulma/sass/utilities/_all.sass`](https://github.com/jgthms/bulma/blob/master/sass/utilities/_all.sass)
+2. Write your import: `@import "bulma/sass/utilities/_all.sass"`
 
 ## 🚀 Cache busting
 Our strategy for cache busting in this starter is to append a `?v=[version]` to each asset query. You must update [`version` in `package.json`](https://github.com/wearemd/static-site-starter/blob/master/package.json#L3) when you need to bust the cache.
