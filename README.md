@@ -9,6 +9,7 @@
 
 ## 🥞 Stack
 - [**Babel**](https://babeljs.io)
+- [**Gulp**](https://gulpjs.com)
 - [**Pug**](https://pugjs.org)
 - [**Sass**](https://sass-lang.com) 
 - [**Webpack**](https://webpack.js.org)
