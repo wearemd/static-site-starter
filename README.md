@@ -54,8 +54,8 @@ make help
 │   │   ├── common.js        # Configuration shared between dev and prod environment
 │   │   ├── dev.js           # Development environment configuration file
 │   │   └── prod.js          # Production environment configuration file
-│   └── index.js             # Script to invoke correct environment and 
-│                            # dinamically load tasks from 
+│   └── index.js             # Script to invoke correct environment 
+│                            # and dynamically load tasks from tasks folder
 │
 ├── js                       # JavaScript source files
 │   ├── foo.js               # Sample JavaScript file imported in scripts.js
