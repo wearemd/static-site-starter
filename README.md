@@ -52,7 +52,7 @@ make help
 │   │   ├── sass.js          # Sass task declaration
 │   │   └── script.js        # JavaScript task declaration
 │   ├── webpack              # Webpack configuration files
-│   │   ├── common.js        # Configuration shared between dev and prod environment
+│   │   ├── common.js        # Configuration shared between dev and prod environments
 │   │   ├── dev.js           # Development environment configuration file
 │   │   └── prod.js          # Production environment configuration file
 │   └── index.js             # Script to invoke correct environment 
