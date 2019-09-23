@@ -74,7 +74,7 @@ make help
 │   └── style.sass           # Main Sass file used by as source by Gulp
 │
 ├── site                     # Site folder
-│   ├── css                  # Minified, optimized and compiled Sass
+│   ├── css                  # Minified, optimized and compiled CSS
 │   ├── fonts                # Fonts folder
 │   ├── images               # Images folder
 │   └── js                   # Minified, optimized and compiled JavaScript
@@ -99,19 +99,18 @@ To `@import` something from an installed package:
 2. Write your import: `@import bulma/sass/utilities/_all`
 
 ## 🚀 Cache busting
-Our strategy for cache busting in this starter is to append a `?v=[versionNumber]` to each asset query. `versionNumber` is set in `package.json` version, you must update the version when you want to bust the cache.
+Our strategy for cache busting in this starter is to append a `?v=[version]` to each asset query. You must update [`version` in `package.json`](https://github.com/wearemd/static-site-starter/blob/master/package.json#L3) when you need to bust the cache.
 
-In Pug templates an `assetVersion`variable is available. Usage:
+In Pug templates an `assetVersion` variable is available. Usage:
 
 ```pug
-img(src="images/unicorn.jpg" + assetVersion)
+img(src="images/unicorn.jpg" + assetVersion, alt="")
 ```
 
 In Sass files an `urlVersion` function is available. Usage:
 
 ```sass
-body
-  background: urlVersion("/images/unicorn.jpg") no-repeat
+background-image: urlVersion("/images/unicorn.jpg")
 ```
 
 ## 🤜🤛 Contributing
