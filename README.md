@@ -18,14 +18,16 @@
 ### Serve
 Serve `site/` with livereload on [localhost:3000](http://localhost:3000).
 
+💡 This command will also **install dependencies** on first run and when `package.json` or `yarn.lock` files are updated.
+
 ```
 make
-``` 
-
-💡 This command will also install dependencies on first run and when `package.json` or `yarn.lock` files are updated.
+```
 
 ### Build
 Build everything with Webpack and Gulp production environment to `site/`.
+
+💡 This command will also **install dependencies** on first run and when `package.json` or `yarn.lock` files are updated.
 
 ```
 make buid
