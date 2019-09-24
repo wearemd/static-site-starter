@@ -117,5 +117,5 @@ background-image: urlVersion("/images/unicorn.jpg")
 ## 🤜🤛 Contributing
 Contributions, issues and feature requests are welcome!
 
-## 📝 License
+## 📄 License
 Static site starter is licensed under the [GNU General Public License v3.0](LICENSE).
