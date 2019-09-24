@@ -103,8 +103,8 @@ If you need to import some stylesheet from an installed package, simply use its 
 @import "bulma/sass/utilities/_all.sass"
 ```
 
-## 🚀 Cache busting
-Our strategy for cache busting in this starter is to append a `?v=[version]` to each asset query. You must update [`version` in `package.json`](https://github.com/wearemd/static-site-starter/blob/master/package.json#L3) when you need to bust the cache.
+## 🍱 Cache busting
+Our strategy for cache busting is to automatically append a `?v=[version]` to each asset query. When you need to bust the cache, simply update [`version` in `package.json`](https://github.com/wearemd/static-site-starter/blob/master/package.json#L3).
 
 In Pug templates an `assetVersion` variable is available. Usage:
 
