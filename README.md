@@ -1,5 +1,5 @@
 <h1 align="center">Static site starter</h1>
-<p align="center"><strong>Static site starter</strong> is a starter template for static sites<br>featuring Gulp, Pug, Sass and Webpack.</p>
+<p align="center"><strong>Static site starter</strong> is a starter template for static sites.</p>
 
 ## ⚙️ Prerequisites
 - [**asdf**](https://github.com/asdf-vm/asdf)
