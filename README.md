@@ -104,7 +104,7 @@ If you need to import some stylesheet from an installed package, simply use its 
 ```
 
 ## 🍱 Cache busting
-Our strategy for cache busting is to automatically append a `?v=[version]` to each asset query. When you need to bust the cache, simply update [`version` in `package.json`](https://github.com/wearemd/static-site-starter/blob/master/package.json#L3).
+Our strategy for cache busting is to automatically append a `?v=[version]` to each asset query. When you need to bust the cache, simply update [`version` in `package.json`](package.json#L3).
 
 In Pug templates an `assetVersion` variable is available. Usage:
 
