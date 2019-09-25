@@ -11,6 +11,7 @@
 - [**Babel**](https://babeljs.io)
 - [**Browsersync**](https://www.browsersync.io)
 - [**Gulp**](https://gulpjs.com)
+- [**minireset.css**](https://jgthms.com/minireset.css/)
 - [**Pug**](https://pugjs.org)
 - [**Sass**](https://sass-lang.com) 
 - [**Webpack**](https://webpack.js.org)

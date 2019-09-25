@@ -5,7 +5,9 @@
   "main": "index.js",
   "author": "awea <aweaoftheworld@gmail.com>",
   "license": "GPL-3.0",
-  "dependencies": {},
+  "dependencies": {
+    "minireset.css": "^0.0.5"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
