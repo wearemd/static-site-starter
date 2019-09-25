@@ -98,13 +98,6 @@ make help
 └── package.json             # Defines libraries and dependencies
 ```
 
-## 👓 Sass
-If you need to import some stylesheet from an installed package, simply use its path. Here’s an example importing [Bulma utilities](https://github.com/jgthms/bulma/blob/master/sass/utilities/_all.sass):
-
-```sass
-@import "bulma/sass/utilities/_all.sass"
-```
-
 ## 🍱 Cache busting
 Our strategy for cache busting is to automatically append a `?v=[version]` to each asset query. When you need to bust the cache, simply update [`version` in `package.json`](package.json#L3).
 
