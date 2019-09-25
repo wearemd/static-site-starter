@@ -12,13 +12,17 @@ html(lang="en")
     title= title
     link(href="css/style.css" + assetVersion, rel="stylesheet")
   body(class=bodyClass)
-    nav
-      ul
-        li
-          a(href="/") Home
-        li
-          a(href="page.html") Page
+    section.wrapper
+      nav
+        ul
+          li
+            a(href="/") Home
+          li
+            a(href="page.html") Page
 
-    block content
+        p Hello there
+
+      section.section
+        block content
 
     script(src="js/scripts.js" + assetVersion)
