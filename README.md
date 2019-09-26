@@ -18,27 +18,24 @@
 
 ## ⌨️ Commands 
 ### Serve
-Serve `site/` with livereload on [localhost:3000](http://localhost:3000).
-
-💡 This command will also **install dependencies** on first run and when `package.json` or `yarn.lock` files are updated.
-
 ```
+# Serve site at localhost:3000 with live reloading
 make
 ```
 
+💡 This command will also **install dependencies** on first run and when `package.json` or `yarn.lock` files are updated.
+
 ### Build
-Build everything with Webpack and Gulp production environment to `site/`.
+```
+# Build site for production use
+make build
+```
 
 💡 This command will also **install dependencies** on first run and when `package.json` or `yarn.lock` files are updated.
 
-```
-make buid
-```
-
 ### Help
-Display a list of available commands.
-
 ```
+# List available commands
 make help
 ```
 
