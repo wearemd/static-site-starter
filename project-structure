@@ -45,5 +45,4 @@
 ├── README.md
 ├── gulpfile.js
 ├── package.json
-├── project-structure
 └── yarn.lock
