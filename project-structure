@@ -14,9 +14,13 @@
 │   │   ├── dev.js
 │   │   └── prod.js
 │   └── index.js
+│
+│
 ├── js
 │   ├── foo.js
 │   └── scripts.js
+│
+│
 ├── sass
 │   ├── dev
 │   │   └── shame.sass
@@ -29,11 +33,15 @@
 │   │   ├── functions.sass
 │   │   └── initial-variables.sass
 │   └── style.sass
+│
+│
 ├── site
 │   ├── fonts
 │   │   └── .gitkeep
 │   └── images
 │       └── unicorn.jpg
+│
+│
 ├── templates
 │   ├── layouts
 │   │   └── default.pug
@@ -41,6 +49,8 @@
 │   │   └── unicorn.pug
 │   ├── index.pug
 │   └── page.pug
+│
+│
 ├── .babelrc
 ├── .gitignore
 ├── .tool-versions
