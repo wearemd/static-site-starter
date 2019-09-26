@@ -1,5 +1,5 @@
 .
-├── gulp                           # 
+├── gulp                           # Gulp tasks and configuration
 │   ├── env                        # 
 │   │   ├── dev.js                 # 
 │   │   └── prod.js                # 
@@ -16,12 +16,12 @@
 │   └── index.js                   # 
 │
 │
-├── js                             # 
+├── js                             # JavaScript source files
 │   ├── foo.js                     # 
 │   └── scripts.js                 # 
 │
 │
-├── sass                           # 
+├── sass                           # Sass style
 │   ├── dev                        # 
 │   │   └── shame.sass             # 
 │   ├── fonts                      # 
@@ -35,14 +35,14 @@
 │   └── style.sass                 # 
 │
 │
-├── site                           # 
+├── site                           # Site
 │   ├── fonts                      # 
 │   │   └── .gitkeep               # 
 │   └── images                     # 
 │       └── unicorn.jpg            # 
 │
 │
-├── templates                      # 
+├── templates                      # Pug templates
 │   ├── layouts                    # 
 │   │   └── default.pug            # 
 │   ├── partials                   # 
@@ -51,12 +51,12 @@
 │   └── page.pug                   # 
 │
 │
-├── .babelrc                       # 
-├── .gitignore                     # 
-├── .tool-versions                 # 
-├── gulpfile.js                    # 
-├── LICENSE                        # 
-├── Makefile                       # 
-├── package.json                   # 
-├── README.md                      # 
-└── yarn.lock                      # 
+├── .babelrc                       # Presets and plugins to use, used by Babel
+├── .gitignore                     # 🦄
+├── .tool-versions                 # Which version to use locally for each language, used by asdf
+├── gulpfile.js                    # Gulp configuration
+├── LICENSE                        # License
+├── Makefile                       # Commands for this project
+├── package.json                   # Libraries and dependencies for JavaScript packages, used by Yarn
+├── README.md                      # Project documentation
+└── yarn.lock                      # 🦄
