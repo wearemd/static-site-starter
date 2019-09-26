@@ -9,13 +9,13 @@ node_modules: package.json yarn.lock
 
 .DEFAULT_GOAL := serve
 .PHONY: serve
-serve: deps ## Serve site/ with livereload on localhost:3000
+serve: deps ## Serve site at localhost:3000 with live reloading
 	@$(GULP) --continue
 
 .PHONY: build
-build: deps ## Build everything with Webpack and Gulp production environment to site/
+build: deps ## Build site for production use
 	@NODE_ENV=production $(GULP)
 
 .PHONY: help
-help: ## Display a list of available commands
+help: ## List available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
