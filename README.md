@@ -43,7 +43,7 @@ make help
 ```
 
 ## 🗄️ Project structure
-See [WIP project structure](project-structure)
+
 
 ## 🍱 Cache busting
 Our strategy for cache busting is to automatically append a `?v=[version]` to each asset query. When you need to bust the cache, simply update [`version` in `package.json`](package.json#L3).
