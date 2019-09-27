@@ -21,7 +21,7 @@
 │
 │
 ├── js                             # JavaScript source files
-│   ├── foo.js                     # 🚧 Sample script imported in scripts.js
+│   ├── foo.js                     # Sample script imported in scripts.js
 │   └── scripts.js                 # Main JavaScript file used as entry by Webpack
 │
 │
@@ -43,7 +43,7 @@
 │   └── style.sass                 # Main Sass file used as source by Gulp
 │
 │
-├── site                           # 🚧 Site
+├── site                           # Site build destination folder
 │   ├── fonts                      # Font assets
 │   │   └── .gitkeep               # Tracking an empty directory within Git
 │   │
