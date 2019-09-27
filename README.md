@@ -43,60 +43,7 @@ make help
 ```
 
 ## 🗄️ Project structure
-```
-.
-├── gulp                     # Gulp tasks and configuration
-│   ├── env                  # Gulp configuration file per environment
-│   │   ├── dev.js           # Development environment configuration file
-│   │   └── prod.js          # Production environment configuration file
-│   ├── helpers              # Gulp helpers folder
-│   │   └── url.js           # Helper for URL creation
-│   ├── tasks                # Gulp tasks folder
-│   │   ├── pug.js           # Pug task declaration
-│   │   ├── sass.js          # Sass task declaration
-│   │   └── script.js        # JavaScript task declaration
-│   ├── webpack              # Webpack configuration files
-│   │   ├── common.js        # Configuration shared between dev and prod environments
-│   │   ├── dev.js           # Development environment configuration file
-│   │   └── prod.js          # Production environment configuration file
-│   └── index.js             # Script to invoke correct environment 
-│                            # and dynamically load tasks from tasks folder
-│
-├── js                       # JavaScript source files
-│   ├── foo.js               # Sample JavaScript file imported in scripts.js
-│   └── scripts.js           # Main JavaScript file used as entry by Webpack
-│
-├── sass                     # Sass stylesheets folder 
-│   ├── dev                  # Development stylesheets folder
-│   │   ├── _all.sass        # Sass file to register all development stylesheets
-│   │   └── shame.sass       # Here we put WIP style or dirty hacks
-│   │                        # See csswizardry.com/2013/04/shame-css/
-│   ├── fonts                # Fonts stylesheets folder
-│   │   └── _all.sass        # Sass file to register all fonts stylesheets
-│   ├── utilities            # Utilities style folder
-│   │   ├── _all.sass        # Sass file to register all utilities stylesheets
-│   │   └── functions.sass   # Sass functions
-│   └── style.sass           # Main Sass file used as source by Gulp
-│
-├── site                     # Site folder
-│   ├── css                  # Minified, optimized and compiled CSS
-│   ├── fonts                # Fonts folder
-│   ├── images               # Images folder
-│   └── js                   # Minified, optimized and compiled JavaScript
-│
-├── templates                # Pug templates folder
-│   ├── index.pug            # Home page
-│   ├── layouts              # Layout templates folder
-│   │   └── default.pug      # Default layout template
-│   ├── page.pug             # Sample page
-│   └── partials             # Partial templates folder
-│       └── unicorn.pug      # Sample partial featuring an unicorn image
-│
-├── .tool-versions           # Tells asdf which version to use locally for each language
-├── gulpfile.js              # Gulp configuration
-├── Makefile                 # Defines commands for this project
-└── package.json             # Defines libraries and dependencies
-```
+See [WIP project structure](project-structure)
 
 ## 🍱 Cache busting
 Our strategy for cache busting is to automatically append a `?v=[version]` to each asset query. When you need to bust the cache, simply update [`version` in `package.json`](package.json#L3).
