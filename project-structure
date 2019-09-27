@@ -9,7 +9,7 @@
 │   │   ├── pug.js                 # 
 │   │   ├── sass.js                # 
 │   │   └── script.js              # 
-│   ├── webpack                    # Webpack configuration
+│   ├── webpack                    # Webpack configuration per environment
 │   │   ├── common.js              # 
 │   │   ├── dev.js                 # 
 │   │   └── prod.js                # 
