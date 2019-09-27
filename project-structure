@@ -3,16 +3,20 @@
 │   ├── env                        # Gulp configuration per environment
 │   │   ├── dev.js                 # Development environment
 │   │   └── prod.js                # Production environment
+│   │
 │   ├── helpers                    # Gulp helpers
 │   │   └── url.js                 # Helper for URL creation
+│   │
 │   ├── tasks                      # Gulp tasks
 │   │   ├── pug.js                 # Pug task declaration
 │   │   ├── sass.js                # Sass task declaration
 │   │   └── script.js              # JavaScript task declaration
+│   │
 │   ├── webpack                    # Webpack configuration per environment
 │   │   ├── common.js              # Shared between development and production environments
 │   │   ├── dev.js                 # Development environment
 │   │   └── prod.js                # Production environment
+│   │
 │   └── index.js                   # 🚧 Script to invoke proper (Gulp?) environment and dynamically load Gulp tasks
 │
 │
@@ -24,20 +28,25 @@
 ├── sass                           # Sass style
 │   ├── dev                        # WIP style for development
 │   │   └── shame.sass             # WIP style or dirty hacks
+│   │
 │   ├── fonts                      # Fonts style
 │   │   └── _all.sass              # File used to import all fonts-related style
+│   │
 │   ├── libs                       # Libraries
 │   │   └── _all.sass              # File used to import all libraries (e.g. minireset.css)
+│   │
 │   ├── utilities                  # Utilities
 │   │   ├── _all.sass              # File used to import all utilities
 │   │   ├── functions.sass         # Functions available in all .sass files
 │   │   └── initial-variables.sass # Variables available in all .sass files
+│   │
 │   └── style.sass                 # Main Sass file used as source by Gulp
 │
 │
 ├── site                           # 🚧 Site
 │   ├── fonts                      # Font assets
 │   │   └── .gitkeep               # 🦄
+│   │
 │   └── images                     # Image assets
 │       └── unicorn.jpg            # Sample image
 │
@@ -45,8 +54,10 @@
 ├── templates                      # Pug templates
 │   ├── layouts                    # Layouts
 │   │   └── default.pug            # Default layout
+│   │
 │   ├── partials                   # Partials
 │   │   └── unicorn.pug            # Sample partial featuring an image
+│   │
 │   ├── index.pug                  # Home page
 │   └── page.pug                   # Sample page
 │
