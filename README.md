@@ -45,7 +45,7 @@ make help
 ## 🗄️ Project structure
 ```
 .
-├── gulp                           # Gulp/Webpack configuration and tasks
+├── gulp                           # GULP/WEBPACK CONFIGURATION AND TASKS
 │   ├── env                        # Gulp configuration per environment
 │   │   ├── dev.js                 # Development environment
 │   │   └── prod.js                # Production environment
@@ -66,12 +66,12 @@ make help
 │   └── index.js                   # Script to invoke proper environment and dynamically load Gulp tasks
 │
 │
-├── js                             # JavaScript source files
+├── js                             # JAVASCRIPT SOURCE FILES
 │   ├── foo.js                     # Sample script imported in scripts.js
 │   └── scripts.js                 # Main JavaScript file used as entry by Webpack
 │
 │
-├── sass                           # Sass style
+├── sass                           # SASS STYLE
 │   ├── dev                        # WIP style for development
 │   │   └── shame.sass             # WIP style or dirty hacks
 │   │
@@ -89,7 +89,7 @@ make help
 │   └── style.sass                 # Main Sass file used as source by Gulp
 │
 │
-├── site                           # Site build destination folder
+├── site                           # SITE BUILD DESTINATION FOLDER
 │   ├── fonts                      # Font assets
 │   │   └── .gitkeep               # Tracking an empty directory within Git
 │   │
@@ -97,7 +97,7 @@ make help
 │       └── unicorn.jpg            # Sample image
 │
 │
-├── templates                      # Pug templates
+├── templates                      # PUG TEMPLATES
 │   ├── layouts                    # Layouts
 │   │   └── default.pug            # Default layout
 │   │
