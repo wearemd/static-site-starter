@@ -1,20 +1,26 @@
-<h1 align="center">Static site starter</h1>
-<p align="center"><strong>Static site starter</strong> is a starter template for static sites.</p>
+<p align="center">
+  <img width="600px" src="README-header.gif" alt="">
+</p>
+<p align="center">
+  <strong>Static site starter</strong> is a starter template for static sites.
+  <br>
+  <b>Stack:</b>
+  <b><a href="https://babeljs.io">Babel</a></b>,
+  <b><a href="https://www.browsersync.io">Browsersync</a></b>,
+  <b><a href="https://gulpjs.com">Gulp</a></b>,
+  <b><a href="https://jgthms.com/minireset.css/">minireset.css</a></b>,
+  <b><a href="https://pugjs.org">Pug</a></b>,
+  <b><a href="https://sass-lang.com">Sass</a></b>,
+  <b><a href="https://webpack.js.org">Webpack</a></b>.
+</p>
+
+- - -
 
 ## ⚙️ Prerequisites
 - [**asdf**](https://github.com/asdf-vm/asdf)
 - [**Make**](https://www.gnu.org/software/make/)
 - [**Node.js**](https://nodejs.org)
 - [**Yarn**](https://yarnpkg.com)
-
-## 🥞 Stack
-- [**Babel**](https://babeljs.io)
-- [**Browsersync**](https://www.browsersync.io)
-- [**Gulp**](https://gulpjs.com)
-- [**minireset.css**](https://jgthms.com/minireset.css/)
-- [**Pug**](https://pugjs.org)
-- [**Sass**](https://sass-lang.com) 
-- [**Webpack**](https://webpack.js.org)
 
 ## ⌨️ Commands 
 ### Serve
@@ -115,6 +121,7 @@ make help
 ├── LICENSE                        # License
 ├── Makefile                       # Commands for this project
 ├── package.json                   # JavaScript dependencies, used by Yarn
+├── README-header.gif              # README header image
 ├── README.md                      # Project documentation
 └── yarn.lock                      # Tracking exact versions for JavaScript dependencies, used by Yarn
 ```
