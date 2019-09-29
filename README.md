@@ -16,12 +16,25 @@
 
 - - -
 
+## 📝 Table of contents
+- [**Prerequisites**](#prerequisites)
+- [**Commands**](#commands)
+- [**Project structure**](#project-structure)
+- [**Cache busting**](#cache-busting)
+- [**Authors**](#authors)
+- [**Contributing**](#contributing)
+- [**License**](#license)
+
+- - -
+
+<a name="prerequisites"></a>
 ## ⚙️ Prerequisites
 - [**asdf**](https://github.com/asdf-vm/asdf)
 - [**Make**](https://www.gnu.org/software/make/)
 - [**Node.js**](https://nodejs.org)
 - [**Yarn**](https://yarnpkg.com)
 
+<a name="commands"></a>
 ## ⌨️ Commands 
 ### Serve
 ```makefile
@@ -48,6 +61,7 @@ make build
 make help
 ```
 
+<a name="project-structure"></a>
 ## 🗄️ Project structure
 ```
 .
@@ -126,6 +140,7 @@ make help
 └── yarn.lock                      # Tracking exact versions for JavaScript dependencies, used by Yarn
 ```
 
+<a name="cache-busting"></a>
 ## 🍱 Cache busting
 Our strategy for cache busting is to automatically append a `?v=[version]` to each asset query. When you need to bust the cache, simply update [`version` in `package.json`](package.json#L3).
 
@@ -141,8 +156,13 @@ In Sass files an `urlVersion` function is available. Usage:
 background-image: urlVersion("/images/unicorn.jpg")
 ```
 
+<a name="authors"></a>
+## ✍️ Authors
+
+<a name="contributing"></a>
 ## 🤜🤛 Contributing
 Contributions, issues and feature requests are welcome!
 
+<a name="license"></a>
 ## 📄 License
 Static site starter is licensed under the [GNU General Public License v3.0](LICENSE).
