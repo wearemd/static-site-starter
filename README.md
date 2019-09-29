@@ -158,10 +158,12 @@ background-image: urlVersion("/images/unicorn.jpg")
 
 <a name="authors"></a>
 ## ✍️ Authors
+- [**@Awea**](https://github.com/Awea) - Idea and initial work
+- [**@mmaayylliiss**](https://github.com/mmaayylliiss) - Design, code/documentation review
 
 <a name="contributing"></a>
 ## 🤜🤛 Contributing
-Contributions, issues and feature requests are welcome!
+**Contributions, issues and feature requests are welcome!** See the list of [contributors](../../graphs/contributors) who participated in this project.
 
 <a name="license"></a>
 ## 📄 License
