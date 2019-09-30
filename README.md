@@ -38,7 +38,7 @@
 ## ⌨️ Commands 
 ### Serve
 ```makefile
-# Serve site at localhost:3000 with live reloading
+# Serve site at http://localhost:3000 with live reloading
 
 make
 ```

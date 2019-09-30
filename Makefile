@@ -9,7 +9,7 @@ node_modules: package.json yarn.lock
 
 .DEFAULT_GOAL := serve
 .PHONY: serve
-serve: deps ## Serve site at localhost:3000 with live reloading
+serve: deps ## Serve site at http://localhost:3000 with live reloading
 	@$(GULP) --continue
 
 .PHONY: build
