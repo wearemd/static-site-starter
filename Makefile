@@ -29,7 +29,7 @@ endef
 ## List available commands
 .PHONY: help
 help:
-	@printf "$(call primary,static-site-starter) $(shell git describe --tags --abbrev=0)\n"
+	@printf "$(call primary,static-site-starter)\n"
 	@printf "A starter template for static sites using Make\n\n"
 	@printf "$(call title,USAGE)"
 	@printf "    make <SUBCOMMAND>\n\n"
