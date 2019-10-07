@@ -65,79 +65,79 @@ make help
 ## 🗄️ Project structure
 ```
 .
-├── gulp                           # GULP/WEBPACK CONFIGURATION AND TASKS
-│   ├── env                        # Gulp configuration per environment
-│   │   ├── dev.js                 # Development environment
-│   │   └── prod.js                # Production environment
+├── gulp                   # GULP/WEBPACK CONFIGURATION AND TASKS
+│   ├── env                # Gulp configuration per environment
+│   │   ├── dev.js         # Development environment
+│   │   └── prod.js        # Production environment
 │   │
-│   ├── helpers                    # Gulp helpers
-│   │   └── url.js                 # Helper for URL creation
+│   ├── helpers            # Gulp helpers
+│   │   └── url.js         # Helper for URL creation
 │   │
-│   ├── tasks                      # Gulp tasks
-│   │   ├── pug.js                 # Pug task declaration
-│   │   ├── sass.js                # Sass task declaration
-│   │   └── script.js              # JavaScript task declaration
+│   ├── tasks              # Gulp tasks
+│   │   ├── pug.js         # Pug task declaration
+│   │   ├── sass.js        # Sass task declaration
+│   │   └── script.js      # JavaScript task declaration
 │   │
-│   ├── webpack                    # Webpack configuration per environment
-│   │   ├── common.js              # Shared between development and production environments
-│   │   ├── dev.js                 # Development environment
-│   │   └── prod.js                # Production environment
+│   ├── webpack            # Webpack configuration per environment
+│   │   ├── common.js      # Shared between development and production environments
+│   │   ├── dev.js         # Development environment
+│   │   └── prod.js        # Production environment
 │   │
-│   └── index.js                   # Script to invoke proper environment and dynamically load Gulp tasks
+│   └── index.js           # Script to invoke proper environment and dynamically load Gulp tasks
 │
 │
-├── js                             # JAVASCRIPT SOURCE FILES
-│   ├── foo.js                     # Sample script imported in scripts.js
-│   └── scripts.js                 # Main JavaScript file used as entry by Webpack
+├── js                     # JAVASCRIPT SOURCE FILES
+│   ├── foo.js             # Sample script imported in scripts.js
+│   └── scripts.js         # Main JavaScript file used as entry by Webpack
 │
 │
-├── sass                           # SASS STYLE
-│   ├── dev                        # WIP style for development
-│   │   └── shame.sass             # WIP style or dirty hacks
+├── sass                   # SASS STYLE
+│   ├── dev                # WIP style for development
+│   │   └── shame.sass     # WIP style or dirty hacks
 │   │
-│   ├── fonts                      # Fonts style
-│   │   └── _all.sass              # File used to import all fonts-related style
+│   ├── fonts              # Fonts style
+│   │   └── _all.sass      # File used to import all fonts-related style
 │   │
-│   ├── libs                       # Libraries
-│   │   └── _all.sass              # File used to import all libraries (e.g. minireset.css)
+│   ├── libs               # Libraries
+│   │   └── _all.sass      # File used to import all libraries (e.g. minireset.css)
 │   │
-│   ├── utilities                  # Utilities
-│   │   ├── _all.sass              # File used to import all utilities
-│   │   ├── functions.sass         # Functions available in all .sass files
-│   │   └── initial-variables.sass # Variables available in all .sass files
+│   ├── utilities          # Utilities
+│   │   ├── _all.sass      # File used to import all utilities
+│   │   ├── functions.sass # Functions available in all .sass files
+│   │   └── variables.sass # Variables available in all .sass files
 │   │
-│   └── style.sass                 # Main Sass file used as source by Gulp
+│   └── style.sass         # Main Sass file used as source by Gulp
 │
 │
-├── site                           # SITE BUILD DESTINATION FOLDER
-│   ├── fonts                      # Font assets
-│   │   └── .gitkeep               # Tracking an empty directory within Git
+├── site                   # SITE BUILD DESTINATION FOLDER
+│   ├── fonts              # Font assets
+│   │   └── .gitkeep       # Tracking an empty directory within Git
 │   │
-│   └── images                     # Image assets
-│       └── unicorn.jpg            # Sample image
+│   └── images             # Image assets
+│       └── unicorn.jpg    # Sample image
 │
 │
-├── templates                      # PUG TEMPLATES
-│   ├── layouts                    # Layouts
-│   │   └── default.pug            # Default layout
+├── templates              # PUG TEMPLATES
+│   ├── layouts            # Layouts
+│   │   └── default.pug    # Default layout
 │   │
-│   ├── partials                   # Partials
-│   │   └── unicorn.pug            # Sample partial featuring an image
+│   ├── partials           # Partials
+│   │   └── unicorn.pug    # Sample partial featuring an image
 │   │
-│   ├── index.pug                  # Home page
-│   └── page.pug                   # Sample page
+│   ├── index.pug          # Home page
+│   └── page.pug           # Sample page
 │
 │
-├── .babelrc                       # Presets and plugins to use, used by Babel
-├── .gitignore                     # Files and folders ignored by Git
-├── .tool-versions                 # Which version to use locally for each language, used by asdf
-├── gulpfile.js                    # Gulp configuration
-├── LICENSE                        # License
-├── Makefile                       # Commands for this project
-├── package.json                   # JavaScript dependencies, used by Yarn
-├── README-header.gif              # README header image
-├── README.md                      # Project documentation
-└── yarn.lock                      # Tracking exact versions for JavaScript dependencies, used by Yarn
+├── .babelrc               # Presets and plugins to use, used by Babel
+├── .gitignore             # Files and folders ignored by Git
+├── .tool-versions         # Which version to use locally for each language, used by asdf
+├── gulpfile.js            # Gulp configuration
+├── LICENSE                # License
+├── Makefile               # Commands for this project
+├── package.json           # JavaScript dependencies, used by Yarn
+├── README-header.gif      # README header image
+├── README.md              # Project documentation
+└── yarn.lock              # Tracking exact versions for JavaScript dependencies, used by Yarn
 ```
 
 <a name="cache-busting"></a>
