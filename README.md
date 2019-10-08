@@ -167,4 +167,4 @@ background-image: urlVersion("/images/unicorn.jpg")
 
 <a name="license"></a>
 ## 📄 License
-Static site starter is licensed under the [GNU General Public License v3.0](LICENSE).
+**Static site starter** is licensed under the [GNU General Public License v3.0](LICENSE).
