@@ -1,7 +1,18 @@
-node_modules
+# macOS stuff
 .DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Site build folder
 !site/
 site/*
 !site/fonts
 !site/images
+
+# Stuff
 .todo
+*.zip
