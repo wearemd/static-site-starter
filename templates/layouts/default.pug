@@ -1,4 +1,6 @@
-- var title = "Default title";
+- var siteTitle = "Site title";
+- var siteDescription = "Site description";
+- var pageTitle = "Default page title";
 - var bodyClass = "";
 
 block vars
@@ -7,9 +9,9 @@ doctype html
 html(lang="en")
   head
     meta(charset="UTF-8")
-    meta(name="description", content="Project description")
+    meta(name="description", content=siteDescription)
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    title= title
+    title= pageTitle + " - " + siteTitle
     link(href="css/style.css" + assetVersion, rel="stylesheet")
   body(class=bodyClass)
     section.wrapper
