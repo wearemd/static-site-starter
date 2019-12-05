@@ -96,7 +96,8 @@ make help
 │   │   └── shame.sass     # WIP style or dirty hacks
 │   │
 │   ├── fonts              # Fonts style
-│   │   └── _all.sass      # File used to import all fonts-related style
+│   │   ├── _all.sass      # File used to import all fonts-related style
+│   │   └── roboto.sass    # @font-face style for Roboto
 │   │
 │   ├── libs               # Libraries
 │   │   └── _all.sass      # File used to import all libraries (e.g. minireset.css)
@@ -111,7 +112,7 @@ make help
 │
 ├── site                   # SITE BUILD DESTINATION FOLDER
 │   ├── fonts              # Font assets
-│   │   └── .gitkeep       # Tracking an empty directory within Git
+│   │   └── roboto         # Roboto from Google Fonts (TTF, WOFF, WOFF2)
 │   │
 │   └── images             # Image assets
 │       └── unicorn.jpg    # Sample image
