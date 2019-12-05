@@ -105,6 +105,7 @@ make help
 │   ├── utilities          # Utilities
 │   │   ├── _all.sass      # File used to import all utilities
 │   │   ├── functions.sass # Functions available in all .sass files
+│   │   ├── mixins.sass    # Mixins available in all .sass files
 │   │   └── variables.sass # Variables available in all .sass files
 │   │
 │   └── style.sass         # Main Sass file used as source by Gulp
