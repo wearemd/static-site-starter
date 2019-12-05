@@ -13,6 +13,6 @@ site/*
 !site/fonts
 !site/images
 
-# Stuff
+# Misc.
 .todo
 *.zip
