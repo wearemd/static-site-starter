@@ -117,6 +117,7 @@ make help
 │   │   └── roboto         # Roboto from Google Fonts (TTF, WOFF, WOFF2)
 │   │
 │   └── images             # Image assets
+│       ├── og-image.jpg   # Image for og:image meta tag (placeholder by default)
 │       └── unicorn.jpg    # Sample image
 │
 │
