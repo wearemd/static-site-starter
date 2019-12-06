@@ -161,7 +161,7 @@ background-image: urlVersion("/images/unicorn.jpg")
 
 <a name="setting-meta-tags"></a>
 ## ⚙️ Setting meta tags
-It is required to configure a few Pug variables to get `title`, `description` and `og:` meta tags ready for production.
+It is required to do some configuration to get `title`, `description` and `og:` meta tags ready for production.
 
 **Step 1:** Set the following variables in [`default.pug`](templates/layouts/default.pug#L1):
 
@@ -177,6 +177,8 @@ It is required to configure a few Pug variables to get `title`, `description` an
 ```pug
 - pageTitle = "Home";
 ```
+
+**Step 3:** Customize the [OG image](site/images/og-image.jpg).
 
 <a name="authors"></a>
 ## ✍️ Authors
