@@ -179,7 +179,7 @@ The starter comes with a simple layout, structured like the following:
       …
 ```
 
-There is also a **Sass utility allowing to highlight the site structure** (pretty useful in development). Simply uncomment [its import in `style.sass`](sass/style.sass#L29) if you want to use it.
+There is also a **Sass utility allowing to highlight the site structure** (pretty useful in development). Simply uncomment [`@import "dev/structure.sass"` in `style.sass`](sass/style.sass#L29) if you want to use it.
 
 <a name="cache-busting"></a>
 ## 🍱 Cache busting
