@@ -5,8 +5,17 @@ block vars
   - bodyClass = "page";
 
 block content
-  section
-    h1 Page
-    p This is a paragraph.
+  // Main
+  main.main
+    // Section
+    section.section
+      .container
+        h1 Page
+        h2 This is section 1
+        p This is a paragraph.
 
-    include partials/unicorn.pug
+    // Section
+    section.section
+      .container
+        h2 This is section 2
+        include partials/unicorn.pug

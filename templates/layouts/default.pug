@@ -23,17 +23,25 @@ html(lang="en")
     link(href="css/style.css" + assetVersion, rel="stylesheet")
     link(rel="icon", href="/images/favicon.ico")
   body(class=bodyClass)
-    section.wrapper
-      nav
-        ul
-          li
-            a(href="/") Home
-          li
-            a(href="page.html") Page
+    // Wrapper
+    .wrapper
+      // Header
+      header.header
+        .container
+          nav
+            ul
+              li
+                a(href="/") Home
+              li
+                a(href="page.html") Page
 
-        p Hello there
+            p Hello there
 
-      section.section
-        block content
+      block content
+
+      // Footer
+      footer.footer
+        .container
+          p Footer information
 
     script(src="js/scripts.js" + assetVersion)
