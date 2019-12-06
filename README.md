@@ -170,7 +170,6 @@ It is required to do some configuration to get `title`, `description` and `og:` 
 - var siteTitle = "Site title";
 - var siteDescription = "Site description";
 - var baseUrl = "https://site-url.com";
-- var pageTitle = "Default page title";
 ```
 
 **Step 2:** Set `pageTitle` variable for each page. For example in [`index.pug`](templates/index.pug#L4):
