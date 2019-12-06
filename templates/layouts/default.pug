@@ -1,5 +1,6 @@
 - var siteTitle = "Site title";
 - var siteDescription = "Site description";
+- var baseUrl = "https://site-url.com";
 - var pageTitle = "Default page title";
 - var bodyClass = "";
 
@@ -12,6 +13,13 @@ html(lang="en")
     meta(name="description", content=siteDescription)
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title= pageTitle + " - " + siteTitle
+
+    //- OG meta tags
+    meta(property="og:title", content=siteTitle)
+    meta(property="og:description", content=siteDescription)
+    meta(property="og:image", content=baseUrl + "/images/og-image.jpg")
+    meta(property="og:url", content=baseUrl)
+
     link(href="css/style.css" + assetVersion, rel="stylesheet")
   body(class=bodyClass)
     section.wrapper

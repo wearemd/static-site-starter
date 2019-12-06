@@ -21,6 +21,7 @@
 - [**Commands**](#commands)
 - [**Project structure**](#project-structure)
 - [**Cache busting**](#cache-busting)
+- [**Setting meta tags**](#setting-meta-tags)
 - [**Authors**](#authors)
 - [**Contributing**](#contributing)
 - [**License**](#license)
@@ -156,6 +157,25 @@ In Sass files an `urlVersion` function is available. Usage:
 
 ```sass
 background-image: urlVersion("/images/unicorn.jpg")
+```
+
+<a name="setting-meta-tags"></a>
+## ⚙️ Setting meta tags
+It is required to configure a few Pug variables to get `title`, `description` and `og:` meta tags ready for production.
+
+**Step 1:** Set the following variables in [`default.pug`](templates/layouts/default.pug#L1):
+
+```pug
+- var siteTitle = "Site title";
+- var siteDescription = "Site description";
+- var baseUrl = "https://site-url.com";
+- var pageTitle = "Default page title";
+```
+
+**Step 2:** Set `pageTitle` variable for each page. For example in [`index.pug`](templates/index.pug#L4):
+
+```pug
+- pageTitle = "Home";
 ```
 
 <a name="authors"></a>
