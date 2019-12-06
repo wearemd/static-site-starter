@@ -162,9 +162,7 @@ background-image: urlVersion("/images/unicorn.jpg")
 
 <a name="setting-meta-tags"></a>
 ## ⚙️ Setting meta tags
-It is required to do some configuration to get `title`, `description` and `og:`* meta tags ready for production.
-
-<small>*You can read more about OG meta tags in the [Open Graph protocol documentation](https://ogp.me).</small>
+It is required to do some configuration to get `title`, `description` and `og:` meta tags ready for production. You can read more about OG meta tags in the [Open Graph protocol documentation](https://ogp.me).
 
 **Step 1:** Set the following variables in [`default.pug`](templates/layouts/default.pug#L1):
 
