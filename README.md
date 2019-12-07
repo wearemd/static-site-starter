@@ -108,7 +108,7 @@ make help
 │   │
 │   ├── layout             # Layout style
 │   │   ├── _all.sass      # Importing all stylesheets
-│   │   └── layout.sass    # Very light starter style for header, section, footer and titles
+│   │   └── layout.sass    # Very light starter style for structure elements and titles
 │   │
 │   ├── libs               # Libraries
 │   │   └── _all.sass      # Importing all libraries (e.g. minireset.css)
