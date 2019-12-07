@@ -154,6 +154,8 @@ make help
 
 <a name="layout-structure"></a>
 ## 🖥 Layout structure
+![](documentation-images/layout-structure.jpg)
+
 The starter comes with a simple layout, structured like the following:
 ```pug
 // Wrapper
@@ -175,6 +177,9 @@ The starter comes with a simple layout, structured like the following:
     .container
       …
 ```
+
+### Highlighting site structure
+![](documentation-images/layout-structure-highlighted.jpg)
 
 There is also a **Sass utility allowing to highlight the site structure** (pretty useful in development). Simply uncomment [`@import "dev/structure.sass"` in `style.sass`](sass/style.sass#L31) if you want to use it.
 
