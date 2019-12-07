@@ -110,9 +110,6 @@ make help
 │   │   ├── _all.sass      # Importing all stylesheets
 │   │   └── layout.sass    # Very light starter style for structure elements and titles
 │   │
-│   ├── libs               # Libraries
-│   │   └── _all.sass      # Importing all libraries (e.g. minireset.css)
-│   │
 │   ├── utilities          # Utilities
 │   │   ├── _all.sass      # Importing all stylesheets
 │   │   ├── functions.sass # Functions available in all .sass files
