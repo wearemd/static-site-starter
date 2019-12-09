@@ -116,6 +116,7 @@ make help
 │   │
 │   ├── utilities          # Utilities
 │   │   ├── _all.sass      # Importing all stylesheets
+│       ├── animations.sass# Animations available in all .sass files
 │   │   ├── functions.sass # Functions available in all .sass files
 │   │   ├── mixins.sass    # Mixins available in all .sass files
 │   │   └── variables.sass # Variables available in all .sass files
