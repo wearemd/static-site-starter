@@ -116,10 +116,10 @@ make help
 │   │
 │   ├── utilities           # Utilities
 │   │   ├── _all.sass       # Importing all stylesheets
-│       ├── animations.sass # Animations available in all .sass files
-│   │   ├── functions.sass  # Functions available in all .sass files
-│   │   ├── mixins.sass     # Mixins available in all .sass files
-│   │   └── variables.sass  # Variables available in all .sass files
+│       ├── animations.sass # Some basic animations
+│   │   ├── functions.sass  # Functions
+│   │   ├── mixins.sass     # A few useful mixins
+│   │   └── variables.sass  # Variables (colors, sizes for typography, etc.)
 │   │
 │   └── style.sass          # Main Sass file used as source by Gulp
 │
