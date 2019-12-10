@@ -119,7 +119,7 @@ make help
 │       ├── animations.sass # Some basic animations
 │   │   ├── functions.sass  # Functions
 │   │   ├── mixins.sass     # A few useful mixins
-│   │   └── variables.sass  # Variables (colors, sizes for typography, etc.)
+│   │   └── variables.sass  # Variables for colors, typography, etc.
 │   │
 │   └── style.sass          # Main Sass file used as source by Gulp
 │
