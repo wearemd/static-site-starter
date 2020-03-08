@@ -71,78 +71,78 @@ make help
 │
 │
 ├── gulp                    # GULP/WEBPACK CONFIGURATION AND TASKS
-│   ├── env                 # Gulp configuration per environment
-│   │   ├── dev.js          # Development environment
-│   │   └── prod.js         # Production environment
-│   │
-│   ├── helpers             # Gulp helpers
-│   │   └── url.js          # Helper for URL creation
-│   │
-│   ├── tasks               # Gulp tasks
-│   │   ├── pug.js          # Pug task declaration
-│   │   ├── sass.js         # Sass task declaration
-│   │   └── script.js       # JavaScript task declaration
-│   │
-│   ├── webpack             # Webpack configuration per environment
-│   │   ├── common.js       # Shared between development and production environments
-│   │   ├── dev.js          # Development environment
-│   │   └── prod.js         # Production environment
-│   │
-│   └── index.js            # Script to invoke proper environment and dynamically load Gulp tasks
+│   ├── env                 # Gulp configuration per environment
+│   │   ├── dev.js          # Development environment
+│   │   └── prod.js         # Production environment
+│   │
+│   ├── helpers             # Gulp helpers
+│   │   └── url.js          # Helper for URL creation
+│   │
+│   ├── tasks               # Gulp tasks
+│   │   ├── pug.js          # Pug task declaration
+│   │   ├── sass.js         # Sass task declaration
+│   │   └── script.js       # JavaScript task declaration
+│   │
+│   ├── webpack             # Webpack configuration per environment
+│   │   ├── common.js       # Shared between development and production environments
+│   │   ├── dev.js          # Development environment
+│   │   └── prod.js         # Production environment
+│   │
+│   └── index.js            # Script to invoke proper environment and dynamically load Gulp tasks
 │
 │
 ├── js                      # JAVASCRIPT SOURCE FILES
-│   ├── foo.js              # Sample script imported in scripts.js
-│   └── scripts.js          # Main JavaScript file used as entry by Webpack
+│   ├── foo.js              # Sample script imported in scripts.js
+│   └── scripts.js          # Main JavaScript file used as entry by Webpack
 │
 │
 ├── sass                    # SASS STYLE
-│   ├── base                # Base style
-│   │   ├── _all.sass       # Importing all stylesheets
-│   │   ├── generic.sass    # Style for generic elements (html, body, etc.)
-│   │   └── helpers.sass    # Helper classes (modifiers)
-│   │
-│   ├── dev                 # Development utilities
-│   │   ├── shame.sass      # WIP style or dirty hacks
-│   │   └── structure.sass  # Highlighting site structure (import commented by default)
-│   │
-│   ├── fonts               # Fonts style
-│   │   ├── _all.sass       # Importing all stylesheets
-│   │   └── roboto.sass     # @font-face style for Roboto
-│   │
-│   ├── layout              # Layout style
-│   │   ├── _all.sass       # Importing all stylesheets
-│   │   └── layout.sass     # Very light starter style for structure elements and titles
-│   │
-│   ├── utilities           # Utilities
-│   │   ├── _all.sass       # Importing all stylesheets
-│   │   ├── animations.sass # Some basic animations
-│   │   ├── functions.sass  # Functions
-│   │   ├── mixins.sass     # A few useful mixins
-│   │   └── variables.sass  # Variables for colors, typography, etc.
-│   │
-│   └── style.sass          # Main Sass file used as source by Gulp
+│   ├── base                # Base style
+│   │   ├── _all.sass       # Importing all stylesheets
+│   │   ├── generic.sass    # Style for generic elements (html, body, etc.)
+│   │   └── helpers.sass    # Helper classes (modifiers)
+│   │
+│   ├── dev                 # Development utilities
+│   │   ├── shame.sass      # WIP style or dirty hacks
+│   │   └── structure.sass  # Highlighting site structure (import commented by default)
+│   │
+│   ├── fonts               # Fonts style
+│   │   ├── _all.sass       # Importing all stylesheets
+│   │   └── roboto.sass     # @font-face style for Roboto
+│   │
+│   ├── layout              # Layout style
+│   │   ├── _all.sass       # Importing all stylesheets
+│   │   └── layout.sass     # Very light starter style for structure elements and titles
+│   │
+│   ├── utilities           # Utilities
+│   │   ├── _all.sass       # Importing all stylesheets
+│   │   ├── animations.sass # Some basic animations
+│   │   ├── functions.sass  # Functions
+│   │   ├── mixins.sass     # A few useful mixins
+│   │   └── variables.sass  # Variables for colors, typography, etc.
+│   │
+│   └── style.sass          # Main Sass file used as source by Gulp
 │
 │
 ├── site                    # SITE BUILD DESTINATION FOLDER
-│   ├── fonts               # Font assets
-│   │   └── roboto          # Roboto from Google Fonts (TTF, WOFF, WOFF2)
-│   │
-│   └── images              # Image assets
-│       ├── favicon.ico     # Favicon (placeholder by default)
-│       ├── og-image.jpg    # Image for og:image meta tag (placeholder by default)
-│       └── unicorn.jpg     # Sample image
+│   ├── fonts               # Font assets
+│   │   └── roboto          # Roboto from Google Fonts (TTF, WOFF, WOFF2)
+│   │
+│   └── images              # Image assets
+│       ├── favicon.ico     # Favicon (placeholder by default)
+│       ├── og-image.jpg    # Image for og:image meta tag (placeholder by default)
+│       └── unicorn.jpg     # Sample image
 │
 │
 ├── templates               # PUG TEMPLATES
-│   ├── layouts             # Layouts
-│   │   └── default.pug     # Default layout
-│   │
-│   ├── partials            # Partials
-│   │   └── unicorn.pug     # Sample partial featuring an image
-│   │
-│   ├── index.pug           # Home page
-│   └── page.pug            # Sample page
+│   ├── layouts             # Layouts
+│   │   └── default.pug     # Default layout
+│   │
+│   ├── partials            # Partials
+│   │   └── unicorn.pug     # Sample partial featuring an image
+│   │
+│   ├── index.pug           # Home page
+│   └── page.pug            # Sample page
 │
 │
 ├── .babelrc                # Presets and plugins to use, used by Babel
