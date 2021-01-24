@@ -21,7 +21,7 @@
     "@babel/plugin-syntax-import-meta": "7.10.4",
     "@babel/preset-env": "7.12.11",
     "babel-loader": "8.2.2",
-    "browser-sync": "2.26.13",
+    "browser-sync": "2.26.14",
     "gulp": "4.0.2",
     "gulp-pug": "4.0.1",
     "gulp-sass": "4.1.0",
