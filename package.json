@@ -23,7 +23,7 @@
     "babel-loader": "8.2.2",
     "browser-sync": "2.26.14",
     "gulp": "4.0.2",
-    "gulp-pug": "4.0.1",
+    "gulp-pug": "5.0.0",
     "gulp-sass": "4.1.0",
     "gulp-sass-variables": "1.2.0",
     "webpack-merge": "5.8.0",
