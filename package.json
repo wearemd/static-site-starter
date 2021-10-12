@@ -28,7 +28,7 @@
     "gulp-sass-variables": "1.2.0",
     "sass": "1.42.1",
     "webpack-merge": "5.8.0",
-    "webpack-stream": "6.1.2"
+    "webpack-stream": "7.0.0"
   },
   "repository": {
     "url": "git@github.com:wearemd/static-site-starter.git",
