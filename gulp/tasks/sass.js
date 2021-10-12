@@ -1,8 +1,9 @@
 var gulp = require("gulp");
-var sass = require("gulp-sass");
-var sassVariables = require("gulp-sass-variables");
+var sass = require("gulp-sass")(require("sass"));
+// var sassVariables = require("gulp-sass-variables");
 var browserSync = require("browser-sync");
 var { assetVersion } = require("../helpers/url");
+var sassVariables = require("../helpers/sass-variables");
 
 // See https://github.com/sass/node-sass for sass configuration
 var sassConfig = {
