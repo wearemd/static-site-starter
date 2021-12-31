@@ -24,7 +24,7 @@
     "browser-sync": "2.27.7",
     "gulp": "4.0.2",
     "gulp-pug": "5.0.0",
-    "gulp-sass": "5.0.0",
+    "gulp-sass": "5.1.0",
     "gulp-sass-variables": "1.2.0",
     "sass": "1.45.2",
     "webpack": "5.65.0",
