@@ -28,7 +28,7 @@
     "gulp-sass-variables": "1.2.0",
     "sass": "1.69.3",
     "webpack": "5.89.0",
-    "webpack-merge": "5.9.0",
+    "webpack-merge": "5.10.0",
     "webpack-stream": "7.0.0"
   },
   "repository": {
